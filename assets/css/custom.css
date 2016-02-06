@@ -1,0 +1,169 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+    text-align: right;
+}
+
+.table td {
+   text-align: right;   
+}
+/*------Table styles -- */
+#package-table{
+	/*background-color: hsla(0,20%,60%,0.3);*/
+}
+/* --- Plans ---------------------------- */
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+}
+.my_planTitle {
+    font-size:2em;
+    
+}
+.my_planPrice {
+    font-size:1.4em;
+    font-weight: bold;    
+}
+.my_planDuration {
+    margin-top: -0.16em;
+}
+
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size:small;
+    }    
+}
+
+/* --- Features ------------------------- */
+
+.my_feature {
+    font-size: 0.85em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    /*background-color: hsla(0,0%,0%,0.5); */
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+        text-align: center;
+        margin-top: 0.1em;
+    	margin-bottom: 0.1em;
+    }
+ }
+
+.my_featureRow {
+	text-align: left;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    background-color: hsla(0,0%,10%,0.4);
+    /*
+    border: 0.1em 
+    solid rgb(163, 163, 163);*/
+}    
+
+
+/* --- Plan 1 = skyWave--------------------------- */
+.my_plan1 {
+    /*background: rgb(224,234,242);*/
+}
+
+.my_planHeader.my_plan1 a {
+    background: rgb(49, 122, 190);
+    color:white;
+}
+
+.my_planHeader.my_plan1 {
+    background: rgb(99, 175, 225);
+    border-bottom: thick solid rgb(49, 122, 190);
+}
+
+/* --- Plan 2 =skyWave+--------------------------- */
+.my_plan2 {
+    /*background: rgb(230,235,218);*/
+}
+
+.my_planHeader.my_plan2 a {
+    background: rgb(201, 100, 40);
+    color:white;
+}
+
+.my_planHeader.my_plan2 {
+    background: rgb(246, 144, 31);
+    border-bottom: thick solid rgb(201, 100, 40);
+}
+
+.my_planFeature {
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.my_planFeature i.my_check {
+    color: rgb(99, 175, 225);
+}
+.my_planFeature i.my_check2 {
+    color: rgb(246, 144, 31);
+}
+.my_feature_Limited{
+	color: rgb(99, 175, 225);
+	font-size: 0.85em;
+	
+}
+.my_feature_Unlimited{
+	color: rgb(246, 144, 31);
+	font-size: 0.85em;
+	
+}
+
+/*=========Some special image css========*/
+img.pull-right1 {
+    height:auto !important;
+    max-width:35% !important;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    float:none !important;
+    display:block;
+}
+img.full-width {
+    width:100% !important;
+    height: auto !important;
+}
+
+    @media (min-width: 768px) { 
+        img.pull-left,
+        img.pull-right1 {
+            height:auto !important;
+            max-width:35% !important;
+            margin-top:10px;          
+        } 
+        img.pull-left {
+            margin-right:40px;
+            margin-left:0;
+            float:left !important;
+        }
+        img.pull-right1 {
+            margin-left:40px;
+            margin-right:0;
+            float:right !important;
+        }       
+    }
+    @media (min-width: 992px) { 
+        img.pull-left {
+            margin-right:50px;
+        }
+        img.pull-right1 {
+            margin-left:50px;
+        }                    
+    }
+    @media (min-width: 1200px) {  
+    }
